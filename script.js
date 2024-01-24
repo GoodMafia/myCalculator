@@ -31,7 +31,7 @@ class Calculator {
           return;
       }
 
-      let result = 0;
+      let result;
 
       if (this.operator === '+') {
           result = this.add();
